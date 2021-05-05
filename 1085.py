@@ -5,12 +5,7 @@ def Num1085():
     w = int(parameter[2])
     h = int(parameter[3])
 
-    distList.append(x)
-    distList.append(w - x)
-    distList.append(h - y)
-    distList.append(y)
-
-    result = min(distList)
+    result = min([x, w - x, h - y, y])
 
     print(result)
 
