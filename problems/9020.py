@@ -8,7 +8,7 @@ def Num9029():
 
     testcase = int(input())
 
-    for t in range(testcase):
+    while testcase == 0:
         n = int(input())
         numberOfN = [(i, n - i) for i in range(1, n // 2 + 1)]
         goldbachNums = []
@@ -24,6 +24,7 @@ def Num9029():
         result = str(goldbachNums[0][0]) + " " + str(goldbachNums[0][1])
 
         print(result)
+        testcase -= 1
 
 
 Num9029()
