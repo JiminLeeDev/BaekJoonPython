@@ -16,3 +16,5 @@ def Num10250():
         result = floor * 100 + room
 
         print(str(result))
+
+Num10250

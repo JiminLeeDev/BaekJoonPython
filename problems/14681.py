@@ -15,3 +15,5 @@ def Num14681():
             result = 2
 
     print(str(result))
+
+Num14681()

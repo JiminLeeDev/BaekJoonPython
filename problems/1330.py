@@ -4,3 +4,6 @@ def Num1330():
     B = int(parameter[1])
 
     print("==" if A == B else "<" if A < B else ">")
+
+
+Num1330()

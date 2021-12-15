@@ -12,3 +12,6 @@ def Num9498():
         if score >= 60
         else "F"
     )
+
+
+Num9498

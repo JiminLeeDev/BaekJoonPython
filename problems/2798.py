@@ -27,3 +27,5 @@ def Num2798():
                     result = score
 
     print(result)
+
+Num2798()
