@@ -4,12 +4,15 @@ def Num1978():
     result = 0
 
     for splitedNumber in input().split():
-        number = int(splitedNumber)
-
         isPrimeNumber = True
 
-        for divideNumber in range(2, number):
-            if number % divideNumber == 0:
+        splitedNumber = int(splitedNumber)
+
+        if splitedNumber == 1:
+            continue
+
+        for divideNumber in range(2, splitedNumber):
+            if splitedNumber % divideNumber == 0:
                 isPrimeNumber = False
 
                 break
