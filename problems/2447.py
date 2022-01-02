@@ -16,7 +16,7 @@ def draw_patern(n, src):
 
 def Num2447():
     n = int(input())
-    
+
     result = draw_patern(n, ["*"])
 
     for line in result:
