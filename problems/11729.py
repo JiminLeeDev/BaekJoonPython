@@ -10,7 +10,7 @@ def move(n, a, b, c):
 def Num11729():
     n = int(input())
 
-    print(2 ** n -1)
+    print(2 ** n - 1)
     move(n, 1, 2, 3)
 
 
