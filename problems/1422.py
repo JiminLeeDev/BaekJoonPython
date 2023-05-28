@@ -22,7 +22,7 @@ def Num1422():
     for idx in range(n - k):
         numbers.append(max)
 
-    numbers.sort(key=cmp_to_key(lambda x,y: -1 if x + y > y + x else 1))
+    numbers.sort(key=cmp_to_key(lambda x, y: -1 if x + y > y + x else 1))
 
     for number in numbers:
         result += str(number)
